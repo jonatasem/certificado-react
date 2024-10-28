@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no total width e height */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da tela */
+    background-color: #f0f0f0; /* Cor de fundo suave */
+}
+
+.container {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto */
+}
+
+.certificate {
+    width: 100%; /* Faz a imagem ocupar 100% do container */
+    max-width: 400px; /* Limita a largura máxima da imagem */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.download-button {
+    display: inline-block; /* Faz o link se comportar como um botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado do link */
+    transition: background-color 0.3s; /* Efeito de transição para a cor de fundo */
+}
+
+.download-button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
